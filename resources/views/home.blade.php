@@ -1,18 +1,90 @@
 @extends('adminlte::page')
 
-@section('title', 'AdminLTE')
-
-@section('content_header')
-    <h1 class="m-0 text-dark">Dashboard</h1>
-@stop
+@section('title', 'Seu Provedor')
 
 @section('content')
+    <div class="container">
+        <div class="row" style="justify-content: center; display: flex;flex-wrap: wrap; vertical-align: center;"> 
+            <div class="col" style="display: inline-block; vertical-align: center;">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+                <h2 style="color: rgb(192, 39, 60); font-weight: bolder; font-family: Arial, Helvetica, sans-serif;">Seu Provedor</h2>
+                <br>
+                <p style="color: rgb(117, 117, 117); font-family: Arial, Helvetica, sans-serif;">Coloque seu provedor na palma da mão dos <br> seus clientes!</p>
+                <p style="color: rgb(117, 117, 117)">Traga facilidades como emissão de segunda <br> via de boletos,
+                   pagamento de faturas, pedido <br> de troca de vencimento e forma de <br> pagamento dos serviços,
+                   informe sobre <br> promoções e vantagens!
+                </p>
+            </div>
+            <div class="col">
+                <img src="imgs/pngs/asset_01.png" alt="">
+            </div>
+        </div>
+        <br><br><br>
+        <div align="center">
+            <h2 style="font-weight: bolder; font-family: Arial, Helvetica, sans-serif; color: rgb(192, 39, 60);">Tudo em um só<br>lugar para você</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; color:rgb(117, 117, 117); font-size: 18px; ">Reunimos tudo o que seu cliente <br> precisa!</p>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    
+    <div class="row" style=" margin-top: 45px;">
+        <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin-right: 25px; width: 250px;">
+            <div class="card-body" style="height: 50%; height: 115px;">
+                <img src="imgs/svgs/troca_vencimento.svg" alt="troca de vencimento" style="margin-top: -75px; margin-left: -30px;">
+                <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -35px">Troca de vencimento</p>
+            </div>
+        </div>
+        <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin-right: 25px; width: 250px;">
+            <div class="card-body" style="height: 50%; height: 115px;">
+                <img src="imgs/svgs/troca_plano.svg" alt="troca de plano" style="margin-top: -75px; margin-left: -30px;">
+                <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -35px">Troca de planos&nbsp;&nbsp;&nbsp;</p>
+            </div>
+        </div>
+        <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin-right: 25px; width: 250px;">
+            <div class="card-body" style="height: 50%; height: 115px;">
+                <img src="imgs/svgs/pagamento_fatura.svg" alt="troca de plano" style="margin-top: -75px; margin-left: -30px;">
+                <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -35px">Pagamento de faturas&nbsp;&nbsp;&nbsp;</p>
+            </div>
+        </div>
+        <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin-right: 25px; width: 250px;">
+            <div class="card-body" style="height: 50%; height: 115px;">
+                <img src="imgs/svgs/canais_atendimento.svg" alt="troca de plano" style="margin-top: -75px; margin-left: -30px;">
+                <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -35px">Canais de Atendimento</p>
+            </div>
+        </div>
+    </div>
     <div class="row">
-        <div class="col-12">
-            <div class="card">
-                <div class="card-body">
-                    <p class="mb-0">You are logged in!</p>
-                </div>
+        <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin-right: 25px; margin-top: 50px; width: 250px;">
+            <div class="card-body" style="height: 50%; height: 115px;">
+                <img src="imgs/svgs/segunda_via.svg" alt="troca de plano" style="margin-top: -75px; margin-left: -30px;">
+                <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -35px">Segunda via <br> de boletos para clientes</p>
+            </div>
+        </div>
+        <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin-right: 25px; margin-top: 50px; width: 250px;">
+            <div class="card-body" style="height: 50%; height: 115px;">
+                <img src="imgs/svgs/notificacao_aviso.svg" alt="troca de plano" style="margin-top: -75px; margin-left: -30px;">
+                <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -35px">Notificação de aviso<br> de vencimento</p>
+            </div>
+        </div>
+        <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin-right: 25px; margin-top: 50px; width: 250px;">
+            <div class="card-body" style="height: 50%; height: 115px;">
+                <img src="imgs/svgs/app_personalizado.svg" alt="troca de plano" style="margin-top: -75px; margin-left: -30px;">
+                <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -35px">App personalizado<br> com sua cara</p>
+            </div>
+        </div>
+        <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin-right: 25px; margin-top: 50px; width: 250px;">
+            <div class="card-body" style="height: 50%; height: 115px;">
+                <img src="imgs/svgs/pagamento_pix.svg" alt="troca de plano" style="margin-top: -75px; margin-left: -30px;">
+                <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -35px">Pagamento PIX - Em<br> desenvolvimento</p>
             </div>
         </div>
     </div>
