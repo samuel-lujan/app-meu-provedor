@@ -142,4 +142,20 @@
             </div>
         </div>
     </div>
+            <div style="margin-top: -250px;" >
+                <img style="margin-left: -280px;" src="imgs/pngs/asset_12.png" alt="">
+                <img style="margin-left: -700px; margin-top: 580px;" src="imgs/pngs/asset_10.png" alt="">
+                <img style="margin-left: -140px; margin-top: -60px;" src="imgs/pngs/asset_11.png" alt="">
+            </div>
+            
+            <h1 style="color: rgb(192, 39, 60);text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -850px; margin-left: 680px;">Tudo o que você<br>precisar</h1>
+            <p style="font-size: 20px; margin-top: 20px; margin-left: 680px;text-align: left; color: rgb(117, 117, 117);">Integração já é pronta com SP Integrator mas fazemos integração com qualquer ERP.</p>
+            <br>
+            <p style="font-size: 20px; margin-top: 20px; margin-left: 680px;text-align: left; color: rgb(117, 117, 117);">Servidores no Brasil - Além de apoiarmos negócios 
+                nacionais fato de nossos servidores estarem no Brasil<br> 
+                garantem maior estabilidade e confiabilidade no uso do aplicativo.</p>
+                <br>
+            <p style="font-size: 20px; margin-top: 20px; margin-left: 680px;text-align: left; color: rgb(117, 117, 117);">
+                Funcionalide flexível - Você pode escolher todas as funcionalidade que oferecemos ou apenas as que fazem sentido para o seu provedor ou até mesmo sugerir funcionalidades que ainda não temos.
+            </p>
 @stop
