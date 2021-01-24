@@ -106,4 +106,40 @@
                 </p>
             </div>
     </div>
+    <br><br><br><br><br>
+    <div align="center;">
+        <h2 style=" color: rgb(192, 39, 60);text-align: center; font-family: Arial, Helvetica, sans-serif; font-weight: bolder">Administrando os dados<br>com excelência</h2>
+        <div class="row">
+            <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin: 35px;">
+                <div class="card-body" style="height: 270px; width: 270px">
+                    <div align="center" style="">
+                        <img style="border-radius: 10px;background-color: black; padding: 20px;box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);" src="imgs/pngs/database.png" alt="troca de plano">
+                    </div>
+                    <br>
+                    <h3 style="text-align: center; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder;">Hospedagem premium</h3>
+                    <p style="text-align: center; color: rgb(117, 117, 117);">Utilizamos Hospedagem <br> premium de alta performnces</p>
+                </div>
+            </div>
+            <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin: 35px;">
+                <div class="card-body" style="height: 270px; width: 270px">
+                    <div align="center" style="">
+                        <img style="border-radius: 10px;background-color: black; padding: 20px;box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);" src="imgs/pngs/user-check.png" alt="troca de plano">
+                    </div>
+                    <br>
+                    <h3 style="text-align: center; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder;">Aplicação segura</h3>
+                    <p style="text-align: center;  color: rgb(117, 117, 117);">Certificado SSL/HTTPS<br>garantia de segurança no tráfego de informações</p>
+                </div>
+            </div>
+            <div class="card" style=" border-radius: 30px; box-shadow: 2px 10px 10px 0 rgba(0,0,0,0.2);margin: 35px;">
+                <div class="card-body" style="height: 270px; width: 270px">
+                    <div align="center" style="">
+                        <img style="border-radius: 10px;background-color: black; padding: 20px;box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);" src="imgs/pngs/search.png" alt="troca de plano">
+                    </div>
+                    <br>
+                    <h3 style="text-align: center; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder;">MS Application Care</h3>
+                    <p style="text-align: center; color: rgb(117, 117, 117);">Depois da publicação do<br>aplicativo nas lojas, toda<br>aplicação requer manutenção<br>contínua.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 @stop
