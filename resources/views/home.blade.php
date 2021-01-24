@@ -88,4 +88,22 @@
             </div>
         </div>
     </div>
+    <br>
+    <br><br><br>
+    <div class="row" style="background-color: rgba(0,0,0,0.03);height: 600px; margin-right: -30px; margin-left: -100px;">
+            <div class="col-8" style="margin-left: -90px; margin-top: -10px">
+                <img src="imgs/svgs/marginalia-financial-report.svg" alt="">
+            </div>
+            <div class="col-4">
+                <br><br><br><br><br>
+                <h3 style="text-align:right; color: rgb(192, 39, 60); font-weight: bolder; font-family: Arial, Helvetica, sans-serif; ">Suporte especializado,<br>cuidado e garantia</h3>
+                <p style="text-align: right; color: rgb(117, 117, 117); font-family: Arial, Helvetica, sans-serif; ">O Serviço de suporte do time de especialistas<br>Mídia Simples irá fazer o acompanhamento de<br>
+                    oerto da aplicação.Garantindo performance,<br>
+                disponibilidade e estabilidade. Certificando que <br> os problemas identidicados sejam resolvidos da<br>melhor maneira possível;</p>
+                <p style="text-align: right; color: rgb(117, 117, 117); font-family: Arial, Helvetica, sans-serif; ">
+                    Após o lançamento do app, ajudamos você a se <br> manter à grente da competição com constantes <br> 
+                    lançmentos de novas funcionalidades e<br>otimizando o design de acordo com as novas<br> tendências.
+                </p>
+            </div>
+    </div>
 @stop
