@@ -222,3 +222,23 @@
     
 
 @stop
+
+@section('css')
+    <style>
+        #inicio a{
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-inline: 35px;
+            padding-bottom: 35px;
+        }
+
+        nav a span{
+            color: white;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-inline: 35px;
+            padding-bottom: 35px;
+        }
+    </style>
+@endsection

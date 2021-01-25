@@ -128,7 +128,7 @@ return [
     'classes_content' => '',
     'classes_sidebar' => 'sidebar-dark-primary elevation-4',
     'classes_sidebar_nav' => '',
-    'classes_topnav' => 'navbar-danger navbar-light',
+    'classes_topnav' => 'navbar-danger',
     'classes_topnav_nav' => 'navbar-expand',
     'classes_topnav_container' => 'container',
 
@@ -228,18 +228,22 @@ return [
         [
             'text' => 'Início',
             'url'  => 'incio', 
+            'id'   => 'inicio'
         ],
         [
             'text' => 'Tecnologias',
             'url'  => 'tecnologias', 
+            'id'   => 'inicio'
         ],
         [
             'text' => 'Recursos',
             'url'  => 'recursos', 
+            'id'   => 'inicio'
         ],
         [
             'text' => 'Contato',
             'url'  => 'contato', 
+            'id'   => 'inicio'
         ],
     ],
 
