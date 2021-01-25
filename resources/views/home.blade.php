@@ -142,20 +142,83 @@
             </div>
         </div>
     </div>
-            <div style="margin-top: -250px;" >
-                <img style="margin-left: -280px;" src="imgs/pngs/asset_12.png" alt="">
-                <img style="margin-left: -700px; margin-top: 580px;" src="imgs/pngs/asset_10.png" alt="">
-                <img style="margin-left: -140px; margin-top: -60px;" src="imgs/pngs/asset_11.png" alt="">
-            </div>
-            
-            <h1 style="color: rgb(192, 39, 60);text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -850px; margin-left: 680px;">Tudo o que você<br>precisar</h1>
-            <p style="font-size: 20px; margin-top: 20px; margin-left: 680px;text-align: left; color: rgb(117, 117, 117);">Integração já é pronta com SP Integrator mas fazemos integração com qualquer ERP.</p>
+    <div>
+        <div style="margin-top: -250px;" >
+            <img style="margin-left: -280px;" src="imgs/pngs/asset_12.png" alt="">
+            <img style="margin-left: -700px; margin-top: 580px;" src="imgs/pngs/asset_10.png" alt="">
+            <img style="margin-left: -140px; margin-top: -60px;" src="imgs/pngs/asset_11.png" alt="">
+        </div>
+        
+        <h1 style="color: rgb(192, 39, 60);text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; margin-top: -850px; margin-left: 680px;">Tudo o que você<br>precisar</h1>
+        <p style="font-size: 20px; margin-top: 20px; margin-left: 680px;text-align: left; color: rgb(117, 117, 117);">Integração já é pronta com SP Integrator mas fazemos integração com qualquer ERP.</p>
+        <br>
+        <p style="font-size: 20px; margin-top: 20px; margin-left: 680px;text-align: left; color: rgb(117, 117, 117);">Servidores no Brasil - Além de apoiarmos negócios 
+            nacionais fato de nossos servidores estarem no Brasil<br> 
+            garantem maior estabilidade e confiabilidade no uso do aplicativo.</p>
             <br>
-            <p style="font-size: 20px; margin-top: 20px; margin-left: 680px;text-align: left; color: rgb(117, 117, 117);">Servidores no Brasil - Além de apoiarmos negócios 
-                nacionais fato de nossos servidores estarem no Brasil<br> 
-                garantem maior estabilidade e confiabilidade no uso do aplicativo.</p>
+        <p style="font-size: 20px; margin-top: 20px; margin-left: 680px;text-align: left; color: rgb(117, 117, 117);">
+            Funcionalide flexível - Você pode escolher todas as funcionalidades que oferecemos ou apenas as que fazem sentido para o seu provedor ou até mesmo sugerir funcionalidades que ainda não temos.
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="row" style="background-color: rgba(0,0,0,0.03); width: 1340px; height: 525px;">
+            <div class="col" style="padding: 0px; margin-left: 150px;">
+                <br><br><br><br><br><br><br><br>
+                <h1 style="color: rgb(192, 39, 60);text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bolder;">Precisando de</h1>
+                <p style="font-size: 18px; text-align: left; color: rgb(117, 117, 117);">Saiba de tudo sobre nossos produtos, <br> serviços e benefícios.Tire suas <br> dúvidas e resolva problemas em um <br> de nossos canais de atendimento</p>
+            </div>
+            <div class="col" style="margin-top: -40px; margin-right: -100px;">
+                <img style="" src="imgs/pngs/marginalia-online-cooperation.png" alt="">
+            </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <div class="row" align="center" style="padding: 50px;">
+        <div class="col" style="padding: 50px;">
+            <img src="imgs/pngs/marginalia-delivering-a-message.png" alt="">
+        </div>
+        <div class="col" style="margin-right: -100px;">
+            <br><br><br>
+            <form action="{{route('index')}}" method="get">
+            <h1 style="color: rgb(192, 39, 60);text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bolder;">Fale com a gente</h1> 
+            <br>             
+                <input type="text" name="name" id="name" placeholder="Nome" class="form-control" style="outline: 0;">
                 <br>
-            <p style="font-size: 20px; margin-top: 20px; margin-left: 680px;text-align: left; color: rgb(117, 117, 117);">
-                Funcionalide flexível - Você pode escolher todas as funcionalidade que oferecemos ou apenas as que fazem sentido para o seu provedor ou até mesmo sugerir funcionalidades que ainda não temos.
-            </p>
+                <input type="email" name="email" id="email" placeholder="Email"class="form-control">
+                <br>
+                <textarea rows = "3" cols = "60" name = "Mensagem" id="mensagem" name="mensagem" class="form-control">Mensagem</textarea>
+                <br>
+                <input style="border-radius: 15px; box-shadow: 5px 100px 100px rgba(0,0,0,0.03);" type="button" value="Enviar" class="btn btn-danger form-control">
+            </form>
+        </div>
+    </div>
+@stop
+
+@section('footer')
+    <div align="center">
+        <h2 style="font-family: Arial, Helvetica, sans-serif; color: white; color: rgb(192, 39, 60);text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bolder;">Seu logotipo</h2>
+        <br>
+        <div class="row">
+            
+                <h3 style="padding: 50px; color: rgb(192, 39, 60); font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 25px">Início</h3>
+                <h3 style="padding: 50px; color: rgb(192, 39, 60); font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 25px">Tecnologias</h3>
+                <h3 style="padding: 50px; color: rgb(192, 39, 60); font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 25px">Recursos</h3>
+                <h3 style="padding: 50px; color: rgb(192, 39, 60); font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 25px">Contato</h3>
+
+            <div class="col">
+                <button class="btn bg-danger" style="border-radius: 7px; margin-top: 35px;"><i class="fab fa-facebook-square fa-2x"></i></button>
+            </div>
+        </div>
+        
+    </div>
+    
+
 @stop
